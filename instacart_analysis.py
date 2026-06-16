@@ -46,7 +46,7 @@ df.drop(columns=['eval_set'], inplace=True)
 
 print("데이터 로드 및 병합 완료:", df.shape)
 
-# ── 3. 고객별 주요 지표 생성 (EDA - 장아현 파트) ─────────────
+# ── 3. 고객별 주요 지표 생성 (EDA) ─────────────
 customer_orders = df.groupby('user_id')['order_number'].max().reset_index(name='total_orders')
 customer_spent  = df.groupby('user_id')['unit_price'].sum().reset_index(name='total_spent') if 'unit_price' in df.columns else None
 reorder_ratio   = df.groupby('user_id')['reordered'].mean().reset_index(name='reorder_rate')
