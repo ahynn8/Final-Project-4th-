@@ -7,7 +7,7 @@
 Instacart의 실제 장바구니 데이터를 활용하여 고객 행동 패턴을 분석하고, 고객 세분화 기반 맞춤형 상품 추천 전략을 설계한 프로젝트입니다.
 
 - **기간**: 2025.04.18 ~ 2025.05.14
-- **데이터**: Kaggle - Instacart Online Grocery Basket Analysis Dataset (3백만건+)
+- **데이터**: Kaggle - Instacart Online Grocery Basket Analysis Dataset (3백만건+) + 직접 다운로드 후 실행
 - **팀**: Build-up (5인)
 
 ---
